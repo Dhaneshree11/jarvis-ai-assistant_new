@@ -9,6 +9,6 @@ public class ChatController {
 
     @GetMapping("/api/health")
     public String checkHealth() {
-        return "Jarvis is running successfully!";
+        return "Yes, Jarvis is running successfully!";
     }
 }
